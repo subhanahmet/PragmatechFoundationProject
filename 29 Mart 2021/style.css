@@ -1,0 +1,13 @@
+.slider-frame {
+    
+    height: 600px;
+    border: 1px solid red;
+	background-color: black;
+}
+
+.box {
+    width: 100px;
+    height: 600px;
+    background: gray;
+	transition: all .3s ease;
+}
