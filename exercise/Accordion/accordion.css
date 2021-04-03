@@ -28,7 +28,7 @@ h1{
 }
 
 .accordion-item .header{
-    padding: 0.5rem 3rem 0.5rem 1rem;
+    padding: 1.5rem 3rem 0 1rem;
     min-height: 3.5rem;
     line-height: 1.25rem;
     font-weight: bold;
@@ -55,11 +55,12 @@ h1{
     overflow: hidden;
     max-height: 0px;
     transition: 0.3s;
+    padding: 0;
 }
 
 .show{
     height: auto;
-    padding: 0.5rem 3rem 2rem 1rem;
+    padding: 15px 15px;
     transition: 0.3s;
 
 }
