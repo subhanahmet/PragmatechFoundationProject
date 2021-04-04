@@ -9,7 +9,7 @@ Layihe linki: <a href="http://kodesolution.website/html/html/perfect-wedding/v2.
 
 Layihəmi kodlaşdırarkən komponentlere bölərək davam edəcəm.
 
-<h6> 1ci komponent </h6> : Slider
+<h6> 1ci komponent </h6> - Slider
 
 1. Slider içinə 3 ədəd şəkli yerleşdirəcəm.
 2. Slider şəkilləri 3 saniyədən bir dəyişəcək.
