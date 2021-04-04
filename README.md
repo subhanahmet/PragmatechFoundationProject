@@ -15,4 +15,3 @@ Layihəmi kodlaşdırarkən komponentlere bölərək davam edəcəm.
 
 1. Slider içinə 3 ədəd şəkli yerleşdirəcəm.
 
-̀
