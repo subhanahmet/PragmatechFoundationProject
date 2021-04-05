@@ -11,10 +11,16 @@ Layihəmi kodlaşdırarkən komponentlere bölərək davam edəcəm.
 
 <h6> 1ci komponent: Slider</h6> 
 
-1. <span> Slider içinə 3 ədəd şəkil </span> <span style="text-decoration: line-through;">yerləşdirəcəm</span> <span style="color: green;">yerləşdirdim 🤓</span>
-2. <span> Slider şəkilləri bir lent içinə </span> <span style="text-decoration: line-through;">qoyulacaq</span> <span style="color: green;">qoydum 🤓</span>
-3. Şəkillərin dəyişdirilməsi üçün sağ və sol oxlar qoyulacaq.
+1. Slider içinə 3 ədəd şəkil yerləşdirdim
+2. Slider şəkilləri bir lent içinə qoydum
+3. Şəkillər setInterval ilə 2 saniyədən bir dəyişir.
+4. setTimeout ilə geri sayma qoyuldu
 
-<h6> 2ci komponent: Bəy və Gəlin portfeli</h6> 
+<h6> 2ci komponent: Bəy və Gəlin portfeli </h6> 
 
+1. Bəy və gəlin şəkilləri div içində 'd-flex justify-content-between' ilə əlavə edildi.
+2. 
 
+<h6> 3ci komponent: 'Middle' classı içində tək şəkil əlavə edildi. </h6> 
+
+Burada dəvətiyə ilə bağlı feedback olacaq. Gəlib gəlməyəciyi ilə bağlı RSVP butonu bir də Lokayson butonu olacaq.
