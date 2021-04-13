@@ -1,138 +1,261 @@
-.slider {
-    width: auto;
-    height: 1000px;
-    overflow: hidden;
-    border: 5px solid red;
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* #Header Navbar Style CSS file - START  */
+
+
+#header-navbar{
+    /* height: 75px; */
+    padding: 20px 0px;
+    background-color: white;
+    /* border: 1px solid red; */
+}
+
+.navbar{
+    display: flex;
+    /* border: 1px solid blue; */
+    width: 1140px;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+.navbar-links{
+    padding: 10px 0px;
+}
+
+.navbar-links ul{
+    display: flex;
+    padding: 0;
     margin: 0;
 }
 
-.slide {
-    width: auto;
-    height: 1000px;
-    object-fit: cover;
+.navbar-links ul li{
+    list-style: none;
+    /* border-bottom: 1px solid red; */
+    margin-left: 20px;
 }
 
-.slide img {
-    width: auto;
-    height: 1000px;
-    object-fit: cover;
-    overflow: hidden;
+
+.navbar-links ul li a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    border-bottom: 0px solid red;
 }
 
-.slide-text p{
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    font-size: 61px;
+.navbar-links ul li a:hover{
     color: red;
-    /* background-color: teal; */
+    transition: all 0.5s ease;
+    border-bottom: 1px solid red;
 }
 
-#demo{
-    text-align: center;
-  font-size: 60px;
-  margin-top: 50%;
-  margin-left: 33%;
-  position: absolute;
+.navbar-links ul li a:visited:hover{
+    color: red
 }
 
-.couple-head{
-    text-align: center;
-    margin-top: 80px;
-    font-size: 45px;
+.navbar-links ul li i{
+    margin-top: 4px;
 }
 
-.couple-logo{
-    margin-left: 44%;
-    margin-top: 33px
-    /* height: 1000px */
+.font-great-vibes{
+    color: #ff6d6d !important;
+    font-size: 32px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
 }
 
-.couple-logo img{
-    height: 50px;
-    width: auto;
-    /* margin-left: 45%; */
-}
+/* #Header Style CSS file - END  */
 
-.couple-man-altlogo img{
-    position: fixed;
-}
+/* .Slider Style CSS file - START  */
 
-
-.couple-about{
-    margin-top: 30px;
-    text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
-}
-
-.couple-images{
-    margin-top: 80px;
-}
-
-.couple-woman{
-    text-align: center;
-}
-
-.couple-woman img{
-    height: 200px;
-    width: 200px;
-}
-
-
-.couple-man{
-    text-align: center;
-}
-
-.couple-man img{
-    height: 200px;
-    width: 200px;
-}
-
-.heart-logo img{
-    height: 30px;
-    width: auto;
-}
-
-.middle-photo{
+#slider{
+    /* display: flex; */
     position: relative;
-    
 }
 
-.middle-photo img{
+.slide-action{
     width: 100%;
-  height: auto;
+    height: 774px;
+    /* border: 1px solid blue; */
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
 }
 
-.middle-logo{
-    position: absolute;
-    top: 30%;
+.slider-black-bg{
     width: 100%;
-    align-items: center;
-    font-size: 18px;
-}
-
-.middle-logo img{
-    width: 150px;
-    color: white;
-    margin-left: 45%;
-    margin-top: -15%;
-}
-
-.middle-text{
+    height: 774px;
+    /* border: 1px solid green; */
     position: absolute;
+    background-color: black;
+    opacity: 0.3;
+}
+
+.slide-action img{
+    width: 100%;
+}
+
+.slide-content{
+    /* border: 1px solid red; */
+    width: 500px;
+    margin: 0px auto;
+    position: absolute;
+    z-index: 3;
     top: 50%;
-    width: 100%;
+    left: 50%;
+    /* align-items: center; */
+    /* margin: 0px auto; */
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.bey-gelin-ismi{
+    font-size: 97px;
+    font-family: 'Playfair Display', serif;
     text-align: center;
-    font-size: 41px;
-    color: white;
-    background-color: teal;
 }
 
-.middle-butons{
+.biz-evlenirik{
+    font-family: 'Great Vibes', cursive;
+    font-size: 57px;
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+
+.setinterval-circles{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.circle{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid red; */
+    margin: 0px -21px;
+}
+
+.circle img{
+    position: relative;
+    transform: rotate(295deg);
+}
+
+.circle p{
+    font-size: 49px;
     position: absolute;
-    top: 50%;
-    margin-left: 45%;
-    align-items: center;
+    /* align-items: center; */
+    margin-top: 47px;
+    margin-left: 48px;
+}
+
+/* .Slider Style CSS file - END  */
+
+/* the-couple Style CSS file - START  */
+
+.the-couple{
+    width: 516px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    text-align: center;
+}
+
+.the-couple h3{
+    font-size: 41px;
+    font-family: "Great Vibes", cursive;
+}
+
+.the-couple img{
+    width: 100px;
+
+}
+
+.the-couple p{
+    font-style: italic;
+}
+
+/* the-couple Style CSS file - END  */
+
+/* ----------------------------------- */
+
+
+.xett{
+    background-color: tomato;
+    width: 100%;
+    height: 10px;
+    margin: 150px 0px;
+}
+
+.beyvegelin-container{
+    width: 100%;
+    height: 720px;
+    /* border: 1px solid red; */
+    margin-top: 79px;
+}
+
+.beyvegelin{
+    width: 946px;
+    height: 717px;
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+.gelin{
+    width: 361px;
+    height: 717px;
+    /* border: 1px solid green; */
+}
+
+.beyvegelin span{
+    width: 10px;
+    height: 10px;
+    margin: 183px 0px;
+    font-size: 72px;
+    color: pink;
+    margin-right: 40px;
+}
+
+.bey{
+    width: 361px;
+    height: 717px;
+    /* border: 1px solid green; */
+}
+
+/* -------------------- */
+
+.gelin{
+    display: grid;
+}
+
+.the-couple-gelin{
+    width: 361px;
+    /* border: 2px solid blue; */
+}
+
+.gelin h4{
+    text-align: center;
+}
+
+.gelin img{
+    margin: 0px auto;
+}
+
+.the-couple-logo{
+    width: 173px;
+    margin: 0px auto;
+    /* justify-content: center; */
+    margin-top: 17px;
+}
+
+.gelin p{
+    text-align: center;
+}
+
+.social-media{
+    margin: 0px auto;
 }
