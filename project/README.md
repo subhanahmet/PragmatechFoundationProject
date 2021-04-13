@@ -24,6 +24,7 @@ Layihəmi kodlaşdırarkən komponentlere bölərək davam edəcəm.
 <h6> 3ci komponent: 'Middle' classı içində tək şəkil əlavə edildi. </h6> 
 
 Burada dəvətiyə ilə bağlı feedback olacaq. Gəlib gəlməyəciyi ilə bağlı RSVP butonu bir də Lokayson butonu olacaq.
+<<<<<<< HEAD
 
 
 // layihənizdə olan məlumatlardan hansılarını databasedə saxlamağa ehtiyac var?
