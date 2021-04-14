@@ -1,4 +1,4 @@
-// Gerisayım üçün təyin olunmuş gün
+// Set the date we're counting down to
 var countDownDate = new Date("May 5, 2021 15:37:25").getTime();
 
 // Update the count down every 1 second
