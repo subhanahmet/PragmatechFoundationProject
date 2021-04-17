@@ -10,3 +10,7 @@ Layihe linki: <a href="http://kodesolution.website/html/html/perfect-wedding/v2.
 ## 14 Aprel 2021
 
 Layihəyənin html və css kodlarına əlavələr edildi və sql baza üçün faly yaradıldı.
+
+## 15 Aprel 2021
+
+Layihənin video bölümünə qədər olan yeri hazırlandı. 
