@@ -35,6 +35,14 @@ Layihəmi kodlaşdırarkən komponentlere bölərək davam edəcəm.
 
     - Mən layihəmi istifadə edəndə bu məlumatın dəyişdirilməsini kod daxilində yəni HTML daxilində mi dəyişmək istəyirəm yoxsa bunu dəyişə bilmək üçün ayrı üsul mu düşünmək lazımdır?
 
+     ## 14 Aprel 2021
+
+    Layihəyənin html və css kodlarına əlavələr edildi və sql baza üçün faly yaradıldı.
+
     ## 15 Aprel 2021
 
     Layihənin video bölümünə qədər olan yeri hazırlandı. 
+
+     ## 17 Aprel 2021
+
+    Ən altdaki slider html və css kodları əlavə edildi.

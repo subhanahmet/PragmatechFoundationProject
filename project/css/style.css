@@ -8,9 +8,11 @@ body{
 
 #header-navbar{
     /* height: 75px; */
-    padding: 20px 0px;
+    padding: 15px 0px;
     background-color: white;
-    /* border: 1px solid red; */
+    position: absolute;
+    z-index: 3;
+    width: 100%;
 }
 
 .navbar{
@@ -172,6 +174,7 @@ body{
 
 .the-couple img{
     width: 267px;
+    margin-bottom: 40px;
 }
 
 .the-couple p{
@@ -385,3 +388,72 @@ body{
 .bottom-video iframe{
     border: none;
 }
+
+/* Button Slider Start*/
+
+#buttom-slider{
+    width: 1140px;
+    height: 760px;
+    /* border: 1px solid red;
+    background-color: brown; */
+    margin: 0px auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.slider-frame{
+    width: 1140px;
+    height: 760px;
+    position: relative;
+}
+
+.slider-frame img{
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.desc{
+    position: absolute;
+    /* padding: 10px 329px; */
+    z-index: 2;
+    bottom: 40px;
+    /* box-sizing: border-box; */
+    text-align: center;
+    width: 60%;
+    /* border: 1px solid; */
+    margin: 0px 220px;
+}
+
+.desc0,
+.desc1 p {
+    font-size: 33px;
+    color: white;
+    font-family: "Great Vibes", cursive;
+}
+
+.desc2 p{
+    color: white;
+    font-size: 23px;
+}
+
+.desc .btn-primary{
+    background-color: rgb(255, 109, 109);
+    border-color: rgb(255, 109, 109);
+}
+
+.desc .btn-primary:hover{
+    background-color: rgb(245, 81, 81);
+border-color: rgb(245, 81, 81);
+}
+
+.desc-bg{
+    background-color: black;
+    height: 380px;
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 0px;
+}
+
+/* Button Slider END */
