@@ -18,3 +18,7 @@ Layihənin video bölümünə qədər olan yeri hazırlandı.
 ## 17 Aprel 2021
 
 Ən altdaki slider html və css kodları əlavə edildi.
+
+## 19 Aprel 2021
+
+Commentler bölməsi əlavə edildi.
