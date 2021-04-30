@@ -1,0 +1,651 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* #Header Navbar Style CSS file - START  */
+
+
+#header-navbar{
+    /* height: 75px; */
+    padding: 15px 0px;
+    background-color: white;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    /* border: 1px solid blue; */
+    width: 1140px;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+.navbar-links{
+    padding: 10px 0px;
+}
+
+.navbar-links ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-links ul li{
+    list-style: none;
+    /* border-bottom: 1px solid red; */
+    margin-left: 20px;
+}
+
+
+.navbar-links ul li a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    border-bottom: 0px solid red;
+}
+
+.navbar-links ul li a:hover{
+    color: red;
+    transition: all 0.5s ease;
+    border-bottom: 1px solid red;
+}
+
+.navbar-links ul li a:visited:hover{
+    color: red
+}
+
+.navbar-links ul li i{
+    margin-top: 4px;
+}
+
+.font-great-vibes{
+    color: #ff6d6d !important;
+    font-size: 32px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+}
+
+/* #Header Style CSS file - END  */
+
+/* .Slider Style CSS file - START  */
+
+#slider{
+    /* display: flex; */
+    position: relative;
+}
+
+.slide-action{
+    width: 100%;
+    height: 774px;
+    /* border: 1px solid blue; */
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+.slider-black-bg{
+    width: 100%;
+    height: 774px;
+    /* border: 1px solid green; */
+    position: absolute;
+    background-color: black;
+    opacity: 0.3;
+}
+
+.slide-action img{
+    width: 100%;
+}
+
+.slide-content{
+    /* border: 1px solid red; */
+    width: 500px;
+    margin: 0px auto;
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    /* align-items: center; */
+    /* margin: 0px auto; */
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.bey-gelin-ismi{
+    font-size: 97px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.biz-evlenirik{
+    font-family: 'Great Vibes', cursive;
+    font-size: 57px;
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+
+.setinterval-circles{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.circle{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid red; */
+    margin: 0px -21px;
+}
+
+.circle img{
+    position: relative;
+    transform: rotate(295deg);
+}
+
+.circle p{
+    font-size: 49px;
+    position: absolute;
+    /* align-items: center; */
+    margin-top: 47px;
+    margin-left: 48px;
+}
+
+/* .Slider Style CSS file - END  */
+
+/* the-couple Style CSS file - START  */
+
+.the-couple{
+    width: 516px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    text-align: center;
+}
+
+.the-couple h3{
+    font-size: 41px;
+    font-family: "Great Vibes", cursive;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.the-couple img{
+    width: 267px;
+    margin-bottom: 40px;
+}
+
+.the-couple p{
+    font-style: italic;
+    font-size: 25px;
+}
+
+/* the-couple Style CSS file - END  */
+
+/* ----------------------------------- */
+
+/* Bey ve Gelin Style CSS file - START  */
+
+.xett{
+    background-color: tomato;
+    width: 100%;
+    height: 10px;
+    margin: 150px 0px;
+}
+
+.beyvegelin-container{
+    width: 100%;
+    height: 720px;
+    /* border: 1px solid red; */
+    margin-top: 79px;
+}
+
+.beyvegelin{
+    width: 946px;
+    height: 717px;
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+.beyvegelin span{
+    width: 10px;
+    height: 10px;
+    margin: 183px 0px;
+    font-size: 72px;
+    color: pink;
+    margin-right: 40px;
+}
+
+.bey{
+    display: grid;
+    width: 361px;
+    height: 717px;
+    /* border: 1px solid green; */
+}
+
+.bey h4{
+    text-align: center;
+    font-size: 37px;
+    font-family: "Great Vibes", cursive;
+    margin: 30px 0px;
+}
+
+.bey p:last-of-type{
+    color: #ff6d6d !important;
+    font-family: 'Great Vibes', cursive;
+    font-size: 27px;
+}
+
+.bey p{
+    text-align: center;
+
+}
+
+.bey .social-media{
+    margin: 0px auto;
+}
+
+.bey .social-media i{
+    font-size: 30px;
+    color: #ff6d6d !important;
+    cursor: pointer;
+}
+
+.bey .social-media i:hover{
+    font-size: 30px;
+    color: #f74646 !important;
+}
+
+/* -------------------- */
+
+.gelin{
+    width: 361px;
+    height: 717px;
+    /* border: 1px solid green; */
+}
+
+.gelin{
+    display: grid;
+}
+
+.the-couple-gelin{
+    width: 361px;
+    /* border: 2px solid blue; */
+}
+
+.gelin h4{
+    text-align: center;
+    font-size: 37px;
+    font-family: "Great Vibes", cursive;
+    margin: 30px 0px;
+}
+
+.gelin img{
+    margin: 0px auto;
+}
+
+.the-couple-logo{
+    width: 273px;
+    margin: 0px auto;
+    /* justify-content: center; */
+}
+
+.gelin p:last-of-type{
+    color: #ff6d6d !important;
+    font-family: 'Great Vibes', cursive;
+    font-size: 27px;
+}
+
+.gelin p{
+    text-align: center;
+}
+
+.gelin .social-media{
+    margin: 0px auto;
+}
+
+.gelin .social-media i{
+    font-size: 30px;
+    color: #ff6d6d !important;
+    cursor: pointer;
+}
+
+.gelin .social-media i:hover{
+    font-size: 30px;
+    color: #f74646 !important;
+}
+
+/* Bey ve Gelin Style CSS file - END  */
+
+/* middle-content Style CSS file - START  */
+
+#middle-content{
+    margin-top: 190px;
+    margin-bottom: 100px;
+}
+
+.middle-image{
+    width: 100%;
+    height: 691px;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+
+.middle-image img{
+    width: 100%;
+    height: auto;
+}
+
+.middle-content-container{
+    width: 500px;
+    height: 200px;
+    border: 1px solid green;
+    margin: 0px auto;
+}
+
+/* Comment Container Style CSS file - START  */
+
+.comment-container{
+    width: 100%;
+    height: 500px;
+    border: 1px solid red;
+    margin-top: 79px;
+}
+
+.comment{
+    width: 80%;
+    height: 200px;
+    border: 1px solid red;
+    margin: 0px auto;
+    display: flex;
+}
+
+.comment-text{
+    width: 50px;
+    height: 100px;
+    border: 1px solid blue;
+    background-color: chocolate;
+}
+
+.comment img{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+}
+
+
+#bottom-video{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 504px;
+}
+
+.bottom-video iframe{
+    border: none;
+}
+
+/* Button Slider Start*/
+
+#bottom-slider{
+    width: 1140px;
+    height: 760px;
+    /* border: 1px solid red;
+    background-color: brown; */
+    margin: 0px auto;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.slider-frame{
+    width: 1140px;
+    height: 760px;
+    position: relative;
+}
+
+.slider-frame img{
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.desc{
+    position: absolute;
+    /* padding: 10px 329px; */
+    z-index: 2;
+    bottom: 40px;
+    /* box-sizing: border-box; */
+    text-align: center;
+    width: 60%;
+    /* border: 1px solid; */
+    margin: 0px 220px;
+}
+
+.desc0,
+.desc1 p {
+    font-size: 33px;
+    color: white;
+    font-family: "Great Vibes", cursive;
+}
+
+.desc2 p{
+    color: white;
+    font-size: 23px;
+}
+
+.desc .btn-primary{
+    background-color: rgb(255, 109, 109);
+    border-color: rgb(255, 109, 109);
+}
+
+.desc .btn-primary:hover{
+    background-color: rgb(245, 81, 81);
+border-color: rgb(245, 81, 81);
+}
+
+.desc-bg{
+    background-color: black;
+    height: 380px;
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 0px;
+}
+
+/* Button Slider END */
+
+/* Container Comments START */
+
+/* .container-comments{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-top: 100px;
+} */
+
+.container-comments{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+}
+
+.comment-1{
+    width: 70%;
+    height: 207px;
+    /* border: 1px solid green; */
+    margin: 0px 40px 10px 130px;
+    text-align: end;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+.comment-1 h4{
+    margin: 20px 20px 20px 0px;
+    font-family: "Great Vibes", cursive;
+    padding-top: 23px;
+}
+
+.comment-1 h4 a{
+    text-decoration: none;
+    color: #212529;
+}
+
+.comment-1 *{
+    margin-right: 20px;
+}
+
+.comment-1 span a{
+    color: #ff6d6d;
+    text-decoration: none;
+}
+
+.comment-img{
+    width: 70%;
+    height: 207px;
+    /* border: 1px solid blue; */
+    /* margin-left: 40px; */
+}
+
+.comment-img img{
+    width: 100px;
+    height: 100px;
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.square{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px white, inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%);
+    margin: 100px auto;
+    width: 30px;
+    height: 30px;
+    background-color: #ff6c69;
+    border-radius: 50%;
+}
+
+.square i {
+    font-size: 15px;
+    margin: auto 0px;
+    color: white;
+}
+
+/* ------------------------------- */
+
+.left{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid red; */
+    
+}
+
+.center-line{
+    width: 100px;
+    height: 700px;
+    /* border: 1px solid red; */
+    justify-content: center;
+    position: relative;
+}
+
+.right{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid red; */
+}
+
+.center-line .heart{
+    /* width: 30px;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px white, inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%); */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px white, inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%);
+    margin: 0px auto 190px auto;
+    width: 30px;
+    height: 30px;
+    background-color: #ff6c69;
+    border-radius: 50%;
+}
+
+.center-line i{
+    /* font-size: 15px;
+    color: #ff6c69;
+    margin: auto; */
+    font-size: 15px;
+    margin: auto 0px;
+    color: white;
+}
+
+/* .heart {
+    margin-bottom: 190px;
+} */
+
+.comment-img-left{
+    width: 70%;
+    height: 207px;
+    margin: 0px 40px 10px 130px;
+    text-align: end;
+    border-radius: 10px;
+}
+
+.comment-img-left img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 52px auto;
+}
+
+.comment-img-right{
+    width: 70%;
+    height: 207px;
+    /* border: 1px solid blue; */
+    margin: 0px 130px 10px 40px;
+}
+
+.comment-img-right img{
+    width: 100px;
+    height: 100px;
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    margin: 52px auto;
+}
+
+.right .comment-1{
+    width: 70%;
+    height: 207px;
+    /* border: 1px solid rgb(211, 142, 15); */
+    margin: 0px 130px 10px 40px;
+    text-align: start;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+
+.right .comment-1 > *{
+    margin: 20px 0px 20px 20px;
+}
+
+.duz-xett{
+    border-left: 6px solid #f2f2f2;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+    z-index: -1;
+}
+
+
+/* Container Comments END */
