@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h3>İstifadəçi Əlavə Et</h3>
+
+<form action="/add" method="POST">
+  <input type="text" class="form-control my-2" name="name" placeholder="adınızı yazın">
+  <input type="text" class="form-control my-2" name="surname" placeholder="soyadınızı yazın">
+  <input type="submit" class="btn btn-primary" value="Əlavə Et">
+
+</form>
+
+<br>
+<br>
+<a href="/" class="btn btn-primary">INDEX</a>
+<a href="/update" class="btn btn-primary">UPDATE</a>
+{% endblock %}

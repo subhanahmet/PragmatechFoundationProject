@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h3>Bütün İstifadəşilər</h3>
+<table class="table table-striped ">
+  <thead class="thead-inverse">
+    <tr>
+      <th>Id</th>
+      <th>Ad</th>
+      <th>Soyad</th>
+      <th></th>
+    </tr>
+    </thead>
+    <tbody>
+      {% for x in users %}
+      <tr>
+        <td>{{x.id}}</td>
+        <td>{{x.f_name}}</td>
+        <td>{{x.l_name}}</td>
+        <td>
+          <a href="delete/{{x.id}}" > <i class="bi bi-trash"></i></a>
+          <a href="update/{{x.id}}" > <i class="bi bi-pencil-square"></i></a>
+        </td>
+      </tr>
+      <tr>
+        <td scope="row"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+</table>
+
+
+
+<a href="/add" class="btn btn-primary">ADD</a>
+<a href="/update" class="btn btn-primary">UPDATE</a>
+{% endblock %}

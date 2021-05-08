@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h3>İstifadəçi Dəyişdir</h3>
+
+<form action="/update/{{user.id}}" method="POST">
+    <input type="text" class="form-control my-2" name="name" placeholder="adınızı yazın" value="{{user.f_name}}">
+    <input type="text" class="form-control my-2" name="surname" placeholder="soyadınızı yazın" value="{{user.l_name}}">
+    <input type="submit" class="btn btn-primary" value="Yenilə">
+  </form>
+
+<br>
+<br>
+<a href="/" class="btn btn-primary">INDEX</a>
+<a href="/add" class="btn btn-primary">ADD</a>
+{% endblock %}
